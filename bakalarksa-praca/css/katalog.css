@@ -1,0 +1,277 @@
+@import "sidebar.css";
+@import "prihlasovanie-registracia.css";
+@import "menu.css";
+@import "footer.css";
+@import "index.css";
+
+
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.nadpis-filtrovanie {
+    margin: 0;
+    padding: 0;
+    padding: 6% 0%;
+}
+
+
+
+/* Main row container */
+.row {
+    padding: 4% 0;
+    display: flex;
+}
+
+/* Sidebar with categories and filtering */
+.bocny-stlp {
+    padding: 2% 0% 8% 2.5%;
+    order: 1;
+    width: 15%;
+}
+
+.bocny-stlp-ul {
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #F4F2F1;
+
+}
+
+
+.bocny-stlp-li ul {
+    margin: 0;
+    padding: 0;
+}
+
+.bocny-stlp-li ul li {
+    width: 100%;
+    list-style: none;
+    padding: 2px 0 2px 0;
+
+}
+
+.bocny-stlp-li ul li span {
+    float: inline-end;
+    margin-right: 6em;
+    margin-top: 0.3em;
+}
+
+/* Products list taking up the remaining space */
+.produkty-list {
+    padding: 2% 2% 4% 0;
+    order: 2;
+    flex: 1;
+    /* Take up remaining space */
+    margin: 0;
+    max-width: 100%;
+
+}
+
+
+.color-square {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    content: "";
+    outline: black solid 1px;
+}
+
+
+/* produkty */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: auto;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+    background-color: white;
+}
+
+.price {
+    color: #310e09;
+    font-size: 22px;
+}
+
+
+
+.card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    background-color: white;
+
+}
+
+.vymazat {
+    font-family: Lucida, Georgia, serif;
+    position: relative;
+    border: none;
+    padding: 2% 0 2% 0;
+    font-size: 14px;
+    color: #310e09;
+    letter-spacing: 1.5px;
+}
+
+.vymazat:hover {
+    color: #8f7261;
+    cursor: pointer;
+}
+
+.vymazat:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background-color: #947b6d;
+}
+
+
+.ul-pridavanie-farieb {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+
+}
+
+.modal-content4 {
+    box-shadow: 1px 3px 5px 1px rgba(56, 4, 4, 0.20), 0 6px 20px 0 rgba(56, 4, 4, 0.19);
+    background-color: #ffffff;
+    width: 20%;
+    height: 27%;
+    margin: 18% auto 22% auto;
+    text-align: center;
+}
+
+.li-pridavanie-farieb-text {
+    margin: 0;
+    width: 100%;
+    padding: 4% 0 2% 7%;
+    text-align: left;
+}
+
+
+.li-pridavanie-farieb-btn {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4% 4%;
+}
+
+.h1-nazov {
+    font-size: 22px;
+    color: #310e09;
+    margin: 0;
+    padding: 1% 0;
+}
+
+.price {
+    font-size: 20px;
+    color: #310e09;
+    padding: 4% 0%;
+    margin: 0;
+    font-family: Lucida, Georgia, serif;
+    font-weight: bold;
+}
+
+.kategotia_p {
+    font-size: 15px;
+    color: #310e09;
+    margin: 0;
+    padding: 1% 0;
+    font-family: Lucida, Georgia, serif;
+}
+
+.typ_p {
+    font-size: 15;
+    color: #310e09;
+    margin: 0;
+    padding: 1% 0;
+    font-family: Lucida, Georgia, serif;
+}
+
+.katalog-hr {
+    margin: 8% 0;
+}
+
+.produkty-list .pagination {
+    display: flex;
+    justify-content: end;
+    margin: 1% 8%;
+}
+
+.zoznam-cisla {
+    display: flex;
+    justify-content: end;
+    margin: 0% 1%;
+}
+
+
+
+
+.btn-filter {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border: none;
+    margin: 10px 0px;
+    padding: 5px 0;
+    font-size: 15px;
+    color: #483c35;
+    font-family: Lucida, Georgia, serif;
+    font-weight: lighter;
+    background-color: #F4F2F1;
+}
+
+.btn-filter::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #947b6d;
+}
+
+.btn-filter:hover {
+    color: #8f7261;
+}
+
+
+
+.produkt-a{
+    color: white;
+    border-style: none;
+    background-color: #310e09;
+    font-size: 15px;
+    padding: 5px 90px;
+
+}
+
+.produkt-a:hover {
+    background-color: #8f7261;
+}
+
+
+.produkt-hr {
+    margin: 2% 0 2% 0;
+}
+
+br {
+    margin: 20px 0;
+}

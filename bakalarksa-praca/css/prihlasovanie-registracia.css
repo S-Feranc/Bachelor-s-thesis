@@ -1,0 +1,172 @@
+* {
+    font-family: Lucida, Georgia, serif;
+}
+
+
+/* Prihlasovanie box pozadie */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: rgb(255, 255, 255);
+    /* Fallback color */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Black w/ opacity */
+}
+
+/* Prihlasovanie box kontent */
+.modal-content {
+    box-shadow: 1px 3px 5px 1px rgba(56, 4, 4, 0.20), 0 6px 20px 0 rgba(56, 4, 4, 0.19);
+    background-color: #ffffff;
+    width: 30%;
+    height: auto;
+    margin: 15% auto 15% auto;
+    text-align: center;
+}
+
+/*Registrácia box*/
+.modal3 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: rgb(255, 255, 255);
+    /* Fallback color */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Black w/ opacity */
+}
+
+/* Registrácia Content/Box */
+.modal-content3 {
+    box-shadow: 1px 3px 5px 1px rgba(56, 4, 4, 0.20), 0 6px 20px 0 rgba(56, 4, 4, 0.19);
+    background-color: #ffffff;
+    width: 30%;
+    height: auto;
+    margin: 1% auto 1% auto;
+    text-align: center;
+}
+
+.ul-login-content {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+.li-login-content {
+    padding: 2% 0;
+}
+
+
+.li-login-content-btn {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4% 4%;
+}
+
+
+.login-btn {
+    font-family: Lucida, Georgia, serif;
+    position: relative;
+    border: none;
+    padding: 0;
+    background-color: #ffffff;
+    font-size: 15px;
+    color: #483c35;
+    letter-spacing: 1.5px;
+}
+
+
+.login-btn:hover {
+    color: #8f7261;
+    cursor: pointer;
+}
+
+.login-btn:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background-color: #947b6d;
+}
+
+.login-items {
+    width: 60%;
+    height: 35px;
+    list-style: none;
+    border-style: none;
+    border: #310e0919 solid thin;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 13px;
+    color: #310e09;
+    outline: none;
+    letter-spacing: 1.5px;
+    font-family: Lucida, Georgia, serif;
+    ;
+}
+
+::placeholder {
+    color: #310e09c9;
+    padding: 0;
+    text-align: left;
+    margin: 0;
+    padding-left: 2px;
+    letter-spacing: 1.5px;
+}
+
+
+/* prihlasemie/registracia buttony */
+.preklikavanie-ul {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    clear: both;
+    padding-bottom: 3%;
+}
+
+.preklikavanie-ul .prihlasovanie-li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    line-height: 64px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.preklikavanie-ul .prihlasovanie-li a {
+    display: block;
+    font-family: Lucida, Georgia, serif;
+    font-size: 15px;
+    line-height: inherit;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #310e09;
+}

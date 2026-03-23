@@ -1,0 +1,59 @@
+/* footer */
+* {
+    font-family: Lucida, Georgia, serif;
+}
+
+.kontakty {
+    text-align: left;
+    background-color: #93705e;
+    width: 100%;
+    height: 120px;
+    font-size: 17px;
+    color: #ffffff;
+
+}
+
+.p-kontakty {
+    padding: 0.8% 0 0 2%;
+    margin: 0;
+}
+
+.instagram-icon {
+    width: 27px;
+    height: 27px;
+}
+
+.facebook-icon {
+    width: 27px;
+    height: 27px;
+}
+
+.kontakty {
+    text-align: left;
+    background-color: #93705e;
+    width: 100%;
+    min-height: 120px;
+    font-size: 17px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.p-kontakty {
+    margin: 0;
+}
+
+.instagram-icon, .facebook-icon {
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .kontakty {
+        font-size: 14px;
+    }
+
+    .p-kontakty {
+        padding: 0.8% 2% 0 2%;
+    }
+}

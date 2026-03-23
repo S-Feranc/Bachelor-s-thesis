@@ -1,0 +1,63 @@
+@import "menu.css";
+@import "index.css";
+@import "sprava_produktov.css";
+
+
+
+body {
+    padding-top: 3%;
+}
+
+
+.uprava {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.uprava-ul {
+    margin: 0;
+    padding: 3% 0;
+    list-style: none;
+    width: 30%;
+    justify-content: center;
+
+}
+
+.uprava-li {
+    margin: 0;
+    padding: 1.5% 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+
+}
+
+.uprava-label {
+    margin: 0 3%;
+    padding: 0 0;
+    font-size: 20px;
+
+}
+
+.text {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    height: 30px;
+    width: 65%;
+}
+
+.odstranit {
+    color: #310e09;
+}
+
+
+
+.custom-select {
+    width: 68.1%;
+}
